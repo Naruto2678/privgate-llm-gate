@@ -1,0 +1,3 @@
+# Optional: statistical name detection. After installing, also run:
+#   python -m spacy download en_core_web_sm
+spacy>=3.7

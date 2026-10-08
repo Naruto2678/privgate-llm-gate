@@ -1,0 +1,3 @@
+TASK: Write a short, polite reply (max 120 words) to the customer message below.
+Acknowledge the problem, say what the team will do next, and address the customer by their
+placeholder name if one is present. Do not promise specific dates or refunds.

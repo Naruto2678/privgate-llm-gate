@@ -1,0 +1,2 @@
+TASK: Summarize the message below in 2-3 sentences for an internal ticket. Then list the key
+details (who, what, any identifiers) as short bullet points, using the placeholders as written.

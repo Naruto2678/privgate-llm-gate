@@ -1,0 +1,23 @@
+# Non-secret settings. The API key goes in .env (never in this file).
+# Environment variables LLM_PROVIDER, LLM_MODEL (or OPENAI_MODEL) and OPENAI_BASE_URL override the values below.
+
+llm:
+  provider: openai      # "openai" (OpenAI or any OpenAI-compatible API) or "gemini" (Google's own API)
+  model: gpt-4o-mini      # for Gemini use e.g. gemini-2.5-flash
+  base_url: null          # set for Gemini / Ollama etc. (see README)
+  temperature: 0.2
+  timeout_seconds: 60
+  max_retries: 3
+
+privacy:
+  # Which kinds of personal data to look for
+  detect: [AADHAAR, PAN, PHONE, EMAIL, UPI_ID, IFSC, CREDIT_CARD, BANK_ACCOUNT, PIN_CODE, PERSON]
+  use_checksums: true        # Verhoeff (Aadhaar), Luhn (cards), PAN type letter
+  use_context_rules: true    # "account no. ...", "PIN ...", "my name is ..." style rules
+  use_spacy_ner: false       # optional: find names with spaCy (needs extra install, see README)
+  restore_in_reply: true     # put the real values back into the model's answer
+  fail_closed: true          # block the request if any original value is still in the outgoing prompt
+  audit_log_path: audit_log.jsonl   # counts only, never raw values. Set to null to disable.
+
+limits:
+  max_input_chars: 20000

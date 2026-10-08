@@ -1,0 +1,5 @@
+TASK: Extract the following from the message below and answer as a short list, one item per line:
+- Customer (placeholder name or "not given")
+- Issue
+- Identifiers mentioned (placeholders only)
+- Urgency (low / medium / high) with one-line reason

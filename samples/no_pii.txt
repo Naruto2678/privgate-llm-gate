@@ -1,0 +1,3 @@
+Hello,
+The mobile app crashes every time I open the settings page after the latest update (version 4.2.1).
+Please let me know if there is a fix planned. Ticket 20481 was opened last week.

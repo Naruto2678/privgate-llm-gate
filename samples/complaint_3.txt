@@ -1,0 +1,5 @@
+Customer Name: Sneha Iyer
+Phone: 098765-43210
+Issue: Loan statement shows the wrong EMI. Aadhaar linked to the loan: 4987 6501 2343. PIN code: 560034.
+She is very upset and wants a call back today before 5 pm.
+Internal ticket ID: 456789012345
